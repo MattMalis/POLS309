@@ -1,0 +1,15 @@
+games.csv, downloaded from: https://www.kaggle.com/datasets/aryashah2k/beginners-sports-analytics-nfl-dataset
+
+This dataset contains the following information:
+
+gameId: Game identifier, unique (numeric)
+
+gameDate: Game Date (time, mm/dd/yyyy)
+
+gameTimeEastern: Start time of game (time, HH:MM:SS, EST)
+
+homeTeamAbbr: Home team three-letter code (text)
+
+visitorTeamAbbr: Visiting team three-letter code (text)
+
+week: Week of game (numeric)

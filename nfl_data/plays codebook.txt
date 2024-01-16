@@ -1,0 +1,57 @@
+plays.csv, downloaded from: https://www.kaggle.com/datasets/aryashah2k/beginners-sports-analytics-nfl-dataset
+
+The Dataset consists of following items:
+
+gameId: Game identifier, unique (numeric)
+
+playId: Play identifier, not unique across games (numeric)
+
+playDescription: Description of play (text)
+
+quarter: Game quarter (numeric)
+
+down: Down (numeric)
+
+yardsToGo: Distance needed for a first down (numeric)
+
+possessionTeam: Team on offense (text)
+
+playType: Outcome of dropback: sack or pass (text)
+
+yardlineSide: 3-letter team code corresponding to line-of-scrimmage (text)
+
+yardlineNumber: Yard line at line-of-scrimmage (numeric)
+
+offenseFormation: Formation used by possession team (text)
+
+personnelO: Personnel used by offensive team (text)
+
+defendersInTheBox: Number of defenders in close proximity to line-of-scrimmage (numeric)
+
+numberOfPassRushers: Number of pass rushers (numeric)
+
+personnelD: Personnel used by defensive team (text)
+
+typeDropback: Dropback categorization of quarterback (text)
+
+preSnapHomeScore: Home score prior to the play (numeric)
+
+preSnapVisitorScore: Visiting team score prior to the play (numeric)
+
+gameClock: Time on clock of play (MM:SS)
+
+absoluteYardlineNumber: Distance from end zone for possession team (numeric)
+
+penaltyCodes: NFL categorization of the penalties that ocurred on the play. For purposes of this contest, the most important penalties are Defensive Pass Interference (DPI), Offensive Pass Interference (OPI), Illegal Contact (ICT), and Defensive Holding (DH). Multiple penalties on a play are separated by a ; (text)
+
+penaltyJerseyNumber: Jersey number and team code of the player commiting each penalty. Multiple penalties on a play are separated by a ; (text)
+
+passResult: Outcome of the passing play (C: Complete pass, I: Incomplete pass, S: Quarterback sack, IN: Intercepted pass, text)
+
+offensePlayResult: Yards gained by the offense, excluding penalty yardage (numeric)
+
+playResult: Net yards gained by the offense, including penalty yardage (numeric)
+
+epa: Expected points added on the play, relative to the offensive team. Expected points is a metric that estimates the average of every next scoring outcome given the play's down, distance, yardline, and time remaining (numeric)
+
+isDefensivePI: An indicator variable for whether or not a DPI penalty ocurred on a given play (TRUE/FALSE)

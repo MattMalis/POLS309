@@ -1,0 +1,17 @@
+players.csv, downloaded from: https://www.kaggle.com/datasets/aryashah2k/beginners-sports-analytics-nfl-dataset
+
+This dataset contains the following information:
+
+nflId: Player identification number, unique across players (numeric)
+
+height: Player height (text)
+
+weight: Player weight (numeric)
+
+birthDate: Date of birth (YYYY-MM-DD)
+
+collegeName: Player college (text)
+
+position: Player position (text)
+
+displayName: Player name (text)
